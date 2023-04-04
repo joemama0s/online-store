@@ -6,7 +6,7 @@ if [[ "$VERCEL_GIT_COMMIT_REF" == "staging" || "$VERCEL_GIT_COMMIT_REF" == "main
 
   # Proceed with the build
   echo "✅ - Build can proceed"
-  exit 1;
+  next build
 
 else
   # Don't build
